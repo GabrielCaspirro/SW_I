@@ -20,7 +20,7 @@ namespace Lampada
         {
             Ligada = false;
         }
-        public bool EstaLIgada()
+        public bool EstaLigada()
         {
             return Ligada;
         }
