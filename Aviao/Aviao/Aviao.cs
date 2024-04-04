@@ -20,13 +20,13 @@ namespace Aviao
 
         public void Descer(int m)
         {
-            if(Altitude >= 0)
+            if(Altitude - m>= 0)
             {
                 Altitude -= m; 
             }
             else
             {
-                Altitude = 0;
+                Console.WriteLine("Não é possível descer essa altura");
             }
         }
 
@@ -37,13 +37,13 @@ namespace Aviao
 
         public void Reduzir(int v)
         {
-            if (Velocidade >= 0)
+            if (Velocidade - v>= 0)
             {
                 Velocidade -= v;
             }
             else
             {
-                Velocidade = 0;
+                Console.WriteLine("Não é possível reduzir a esta velocidade");
             }
         }
     }
