@@ -11,7 +11,7 @@
             lampada.Ligar();
             lampada.LampColor("Verde");
             lampada.LampPower(140);
-            Console.WriteLine($"Tá ligada?: {lampada.EstaLIgada()}\n Potência: {lampada.LampP()}\n Cor:{lampada.LampC()}");
+            Console.WriteLine($"Tá ligada?: {lampada.EstaLigada()}\n Potência: {lampada.LampP()}\n Cor:{lampada.LampC()}");
         }
     }
 }
